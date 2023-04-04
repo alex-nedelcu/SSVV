@@ -12,7 +12,25 @@
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <test-run-suite>**/*Test.java, **/*IT.java</test-run-suite>
   </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0</version>
+        <configuration>
+          <argLine>@{argLine}</argLine>
+          <includes>
+            <include>${test-run-suite}</include>
+          </includes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
   <dependencies>
     <dependency>
       <groupId>org.mockito</groupId>
@@ -26,12 +44,6 @@
       <artifactId>junit-jupiter</artifactId>
       <version>5.8.1</version>
       <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-surefire-plugin</artifactId>
-      <version>3.0.0</version>
     </dependency>
   </dependencies>
 
