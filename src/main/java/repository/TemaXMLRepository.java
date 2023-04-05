@@ -1,10 +1,12 @@
 package repository;
 
 import domain.Tema;
+import org.springframework.stereotype.Component;
 import validation.Validator;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
+@Component
 public class TemaXMLRepository extends AbstractXMLRepository<String, Tema> {
 
     public TemaXMLRepository(Validator<Tema> validator, String XMLfilename) {
