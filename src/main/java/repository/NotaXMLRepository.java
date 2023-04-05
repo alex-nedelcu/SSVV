@@ -4,6 +4,7 @@ import domain.Nota;
 import domain.Pair;
 import domain.Student;
 import domain.Tema;
+import org.springframework.stereotype.Component;
 import validation.StudentValidator;
 import validation.TemaValidator;
 import validation.ValidationException;
@@ -23,6 +24,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
+@Component
 public class NotaXMLRepository extends AbstractXMLRepository<Pair<String, String>, Nota> {
 
     public NotaXMLRepository(Validator<Nota> validator, String XMLfilename) {
