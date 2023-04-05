@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4655333-8af9-4c77-ab80-3f36d85e6663" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_14_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_14_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_5_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_5_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonitorizareTemeLaboratorV01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MonitorizareTemeLaboratorV01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StudentTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,6 +170,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentTest.shouldAddStudentWithCorrectId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MonitorizareTemeLaboratorV01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <option name="METHOD_NAME" value="shouldAddStudentWithCorrectId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest.shouldAddStudentWithCorrectName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MonitorizareTemeLaboratorV01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <option name="METHOD_NAME" value="shouldAddStudentWithCorrectName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentTest.testAddStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MonitorizareTemeLaboratorV01" />
       <option name="PACKAGE_NAME" value="" />
@@ -198,12 +202,16 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.StudentTest.shouldAddStudentWithCorrectId" />
+      <item itemvalue="JUnit.StudentTest.shouldAddStudentWithCorrectName" />
       <item itemvalue="JUnit.StudentTest" />
       <item itemvalue="JUnit.StudentTest.testAddStudent" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StudentTest" />
+        <item itemvalue="JUnit.StudentTest.shouldAddStudentWithCorrectId" />
+        <item itemvalue="JUnit.StudentTest.shouldAddStudentWithCorrectName" />
         <item itemvalue="JUnit.StudentTest.testAddStudent" />
         <item itemvalue="Application.Main" />
       </list>
@@ -289,10 +297,19 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/validation/StudentValidator.java</url>
+          <line>4</line>
+          <properties class="validation.StudentValidator" method="validate">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/service/Service.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/java/repository/AbstractCRUDRepository.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
